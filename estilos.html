@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        defer></script>
+    <title>Estilos</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo"><img src="img/grazifalk.png" alt="logomarca grazifalk"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container body">
+
+        <h2>CSS</h2>
+        <div class="container paragrafo">
+            <div class="row  align-items-center">
+                <div class="col">
+                    <p>
+                        CSS é a linguagem que cuida da aparência de uma página web.</p>
+                    <ul class="css">
+                        <li>- Não é uma linguagem de programação.</li>
+                        <li>- É aplicado ao HTML.</li>
+                        <li>- Usa regras e propriedades para customizar elementos.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+        <img src="img/semantico.png" alt="html semântico">
+        <br /> <br />
+        <h2>CSS Interno</h2>
+        <div class="container paragrafo">
+            <div class="row  align-items-center">
+                <div class="col">
+                    <p>
+                        O CSS interno ou incorporado requer que você adicione a tag 'style' na seção 'head' do seu
+                        documento HTML.
+                        Este estilo de CSS é um método efetivo de estilizar uma única página. Contudo, usar esse estilo
+                        em múltiplas páginas pode consumir muito tempo, já que você precisa definir as regras CSS para
+                        cada página do seu site.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br /> <br />
+        <h2>CSS Externo</h2>
+        <div class="container paragrafo">
+            <div class="row  align-items-center">
+                <div class="col">
+                    <p>
+                        Com o CSS externo, você vai linkar as páginas da internet com um arquivo .css externo, que você
+                        pode criar usando qualquer editor de texto no seu dispositivo.
+                        Este tipo de CSS é um método mais eficiente, especialmente se você está estilizando um site
+                        grande. Ao editar um arquivo .css, você pode modificar um site inteiro de uma só vez.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br /> <br />
+        <h2>CSS Inline</h2>
+        <div class="container paragrafo">
+            <div class="row  align-items-center">
+                <div class="col">
+                    <p>
+                        O CSS inline é usado para dar estilo a um elemento HTML específico. Para este estilo de CSS você
+                        somente vai precisar adicionar o atributo style para cada tag HTML, sem usar os seletores.
+                        Este tipo de CSS não é realmente recomendado, já que cada tag HTML precisa ser estilizada de
+                        maneira individual. Gerenciar o seu site pode se tornar uma tarefa bem difícil se você só usa o
+                        CSS inline.
+                        Contudo, o CSS inline no HTML pode ser útil para algumas situações. Por exemplo, em casos onde
+                        você não tem acesso aos arquivos CSS ou precisa aplicar estilos para um elemento único.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br /> <br />
+        <h2>Box Model</h2>
+        <div class="container paragrafo">
+            <div class="row  align-items-center">
+                <div class="col">
+                    <p>
+                        O motor de renderização do navegador representa cada elemento como uma caixa retangular, de
+                        acordo com o padrão definido pelo CSS conhecido como box (caixa) model. Dessa forma, o conteúdo
+                        do elemento é uma das quatro partes que compõem o box, sendo as demais o seu preenchimento,
+                        borda e margem. A Figura 1 nos dá uma visão desse desenho.
+                        Na maioria dos casos, o que vemos é apenas o conteúdo do elemento, geralmente um texto, imagem,
+                        vídeo, etc. Esse conteúdo é o que consideramos as suas dimensões, altura e largura. Entretanto,
+                        é o conteúdo somado a margem, borda e preenchimento do elemento que determinam o espaço que o
+                        mesmo ocupa na tela do navegador. Por essa razão entender o box model é fundamental para a
+                        criação de layouts consistentes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br /> <br />
+        <h2>Estilização de Textos</h2>
+        <div class="container paragrafo">
+            <div class="row  align-items-center">
+                <div class="col">
+                    <p style="text-align: justify;">
+                        <br /><h5>Color</h5>
+                        A propriedade color altera a cor de primeiro plano de um texto, também chamada em algumas
+                        literaturas de foreground. Ao utilizar essa propriedade, todo o texto do elemento será alterado,
+                        assim como decorações que ele contenha.
+                        <br />
+                        <h5>Font</h5>
+                        Aplicamos uma fonte ao texto de um elemento com a propriedade font-family. Essa propriedade
+                        permite informar uma lista composta por uma ou mais fontes que, quando forem encontradas pelo
+                        navegador no computador do usuário do site, serão utilizadas.
+                        <br />
+                        <h5>Transformações</h5>
+                        Com o CSS também podemos aplicar transformações ao texto utilizando para isso a propriedade
+                        text-transform.<br />
+                        none: remove todas as transformações, o que é útil para anular algum estilo anteriormente
+                        aplicado pelo navegador;
+                        capitalize: a primeira letra de cada palavra em maiúscula;
+                        uppercase: deixa todas as letras em maiúscula;
+                        lowercase: deixa todas as letras em minúscula.
+                        <br />
+                        <h5>Decorações</h5>
+                        Outra propriedade muito utilizada para decorações é a text-decoration.
+                        <br />
+                        none: remove qualquer transformação aplicada anteriormente;
+                        underline: aplica uma linha abaixo do texto;
+                        overline: aplica uma linha sobre o texto;
+                        line-through: risca o texto.
+                        <br />
+                        <h5>Sombras</h5>
+                        Nos dias atuais é muito comum aplicarmos efeitos de sombra ao texto. Quando utilizadas
+                        corretamente, as sombras facilitam a leitura e destacam o texto de imagens ou qualquer outro
+                        elemento que seja utilizado como fundo.
+                        A propriedade utilizada para esse fim é a text-shadow, que recebe quatro valores:
+                        O primeiro valor corresponde a distância horizontal da sombra em relação ao texto no parágrafo e
+                        o segundo valor determina o deslocamento vertical. O terceiro valor indica o quanto desejamos
+                        que a sombra seja borrada, perdendo assim a sua solidez. Por último, definimos a cor da sombra
+                        <br />
+                        <h5>Alinhamento</h5>
+                        A propriedade text-align permite controlar como o texto será alinhado dentro do elemento que o
+                        contém.
+                        <br />
+                        <h5>Altura de linha e espaçamento</h5>
+                        Podemos controlar a altura da linha de um texto com a propriedade line-height. Geralmente
+                        utilizamos a unidade em como valor para essa propriedade para que a distância entre as linhas do
+                        texto acompanhe o tamanho da fonte.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br /> <br />
+
+
+
+
+
+    </div>
+
+    <div class="voltar" style="text-align: right;">
+        <a href="index.html"><img src="img/home.png" alt="home" width="100"></a>
+    </div>
+    <footer>
+        <div class="container footer" style="text-align: center;">
+            <a href="https://www.instagram.com/grazifalk/"" target=" _blank"><img src="img/instagram.png"
+                    alt="instagram-grazi" width="80"></a>
+            <a href="https://www.linkedin.com/in/graziela-falk-92b298214/" target="_blank"><img src="img/linkedin.png"
+                    alt="linkedin-grazi" width="80"></a>
+            <a href="https://github.com/grazifalk" target="_blank"><img src="img/github.png" alt="github-grazi"
+                    width="80"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

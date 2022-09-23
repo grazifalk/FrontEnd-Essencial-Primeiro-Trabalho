@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!-- Para navegador saber que estamos usando html mais recente -->
+
+<html lang="pt-BR">
+<!-- Define escopo de uma página HTML-->
+
+<head>
+  <!-- Informações de configurações, conseguimos linkar arquivos externos -->
+  <meta charset="UTF-8"> <!-- Tag meta utilizada para comunicar aos navegadores o formato de codificação de caracteres utilizados -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+    defer></script>
+  <title>FrontEnd Essencial</title> <!-- Título do site, mostrado na barra do navegador -->
+</head>
+
+<body><!-- Conteúdo do site-->
+
+  <header>
+    <nav id="navbar">
+      <div class="nav-wrapper">
+        <a href="index.html" class="logo"><img src="img/grazifalk.png" alt="logomarca grazifalk"></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <h1>FrontEnd Essencial</h1>
+  <!-- Heading tags - Usadas em ordem crescente, da mais importante para menos importante, ex: h1, h2, h3... -->
+  <div class="container texto">
+    <div class="row  align-items-center">
+      <div class="col">
+        <p>O Front-end está muito relacionado com a interface gráfica do projeto. Ou seja, é onde se desenvolve a
+          aplicação
+          com a qual o usuário irá interagir diretamente, seja em softwares, sites, aplicativos, etc. Portanto, é
+          essencial que o desenvolvedor tenha uma preocupação com a experiência do usuário.</p> <!-- Parágrafo -->
+      </div>
+    </div>
+  </div>
+  <div class="container body">
+
+    <h2>Pilares do FrontEnd</h2>
+    <img src="img/logos.png" alt="Logotipos FrontEnd" width="200px">
+    <!-- Lista não ordenada -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>Estrutura que sustenta tudo.</dd>
+      <dt>CSS</dt>
+      <dd>Mecanismo para adicionar estilos (layout, estética, apresentação).</dd>
+      <dt>JavaScript</dt>
+      <dd>Responsável pela interatividade e dinamismo.</dd>
+    </dl>
+    <hr /> <!-- Linha horizontal -->
+  </div>
+
+  <div class="container cards">
+    <div class="row  align-items-center">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/estrutura-basica-html.png" class="card-img-top" alt="estrutura básica html">
+          <div class="card-body">
+            <h5 class="card-title">Estrutura Básica do HTML</h5>
+            <p class="card-text">O documento HTML sempre inicia com uma estrutura básica.</p>
+            <a href="estrutura-basica.html" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img width="286px" height="163px" src="img/html-semantico.jpg" class="card-img-top" alt="html semântico">
+          <div class="card-body">
+            <h5 class="card-title">HTML Semântico</h5>
+            <p class="card-text">Descreve o significado do conteúdo presente em documentos HTML.</p>
+            <a href="html-semantico.html" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/estilos.png" class="card-img-top" alt="estilos com css">
+          <div class="card-body">
+            <h5 class="card-title">Estilos</h5>
+            <p class="card-text">O CSS separa o conteúdo da representação visual do site.</p>
+            <a href="estilos.html" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="container footer" style="text-align: center;">
+
+      <a href="https://www.instagram.com/grazifalk/"" target=" _blank"><img src="img/instagram.png"
+          alt="instagram-grazi" width="80"></a>
+      <a href="https://www.linkedin.com/in/graziela-falk-92b298214/" target="_blank"><img src="img/linkedin.png"
+          alt="linkedin-grazi" width="80"></a>
+      <a href="https://github.com/grazifalk" target="_blank"><img src="img/github.png" alt="github-grazi"
+          width="80"></a>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
